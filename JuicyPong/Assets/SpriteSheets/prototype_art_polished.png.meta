@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1adf07857b4a9a547aeabed0d6b6a28d
+guid: afb76ce365eca92489bee521df65c567
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -23,7 +23,7 @@ TextureImporter:
   textureFormat: -3
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 1
     mipBias: -1
     wrapMode: 1
@@ -45,7 +45,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: prototype_art_0
+    - name: prototype_art_polished_0
       rect:
         serializedVersion: 2
         x: 5
@@ -54,7 +54,7 @@ TextureImporter:
         height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: prototype_art_1
+    - name: prototype_art_polished_1
       rect:
         serializedVersion: 2
         x: 104
@@ -63,7 +63,7 @@ TextureImporter:
         height: 241
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: prototype_art_2
+    - name: prototype_art_polished_2
       rect:
         serializedVersion: 2
         x: 202
@@ -72,31 +72,31 @@ TextureImporter:
         height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: prototype_art_3
+    - name: prototype_art_polished_3
       rect:
         serializedVersion: 2
-        x: 202
-        y: 154
-        width: 42
-        height: 41
+        x: 203
+        y: 155
+        width: 40
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: prototype_art_4
+    - name: prototype_art_polished_4
       rect:
         serializedVersion: 2
-        x: 202
-        y: 98
-        width: 42
-        height: 42
+        x: 203
+        y: 99
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: prototype_art_5
+    - name: prototype_art_polished_5
       rect:
         serializedVersion: 2
-        x: 202
-        y: 43
-        width: 42
-        height: 41
+        x: 203
+        y: 44
+        width: 40
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
   spritePackingTag: 
