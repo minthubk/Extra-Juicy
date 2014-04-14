@@ -3,6 +3,9 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - P1Paddle
+  - P2Paddle
+  - Ball
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -40,4 +43,20 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
+    locked: 0
+  - name: Background
+    userID: 2
+    uniqueID: 1882393973
+    locked: 0
+  - name: Foreground
+    userID: 4
+    uniqueID: 2462050003
+    locked: 0
+  - name: Effects
+    userID: 3
+    uniqueID: 3299015669
+    locked: 0
+  - name: UI
+    userID: 1
+    uniqueID: 1189782461
     locked: 0
