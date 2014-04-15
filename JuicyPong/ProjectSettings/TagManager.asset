@@ -3,10 +3,11 @@
 --- !u!78 &1
 TagManager:
   tags:
-  - P1Paddle
-  - P2Paddle
+  - Paddle
   - Ball
   - Wall
+  - Ceiling
+  - Corner
   - ScoreRegion
   - 
   Builtin Layer 0: Default
