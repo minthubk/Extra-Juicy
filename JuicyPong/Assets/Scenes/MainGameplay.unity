@@ -184,7 +184,6 @@ GameObject:
   - 4: {fileID: 272541714}
   - 212: {fileID: 272541717}
   - 61: {fileID: 272541716}
-  - 50: {fileID: 272541715}
   m_Layer: 0
   m_Name: Wall_L_T
   m_TagString: Wall
@@ -203,21 +202,6 @@ Transform:
   m_LocalScale: {x: 18.5337849, y: 15.9524145, z: 1}
   m_Children: []
   m_Father: {fileID: 1318350315}
---- !u!50 &272541715
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 272541713}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &272541716
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -228,7 +212,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Size: {x: .400000066, y: .389999986}
-  m_Center: {x: -2.98023224e-08, y: -5.96046448e-08}
+  m_Center: {x: 0, y: -5.96046448e-08}
 --- !u!212 &272541717
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -248,7 +232,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortingLayerID: 1882393973
   m_Sprite: {fileID: 21300006, guid: afb76ce365eca92489bee521df65c567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -262,7 +246,6 @@ GameObject:
   - 4: {fileID: 328624281}
   - 212: {fileID: 328624284}
   - 61: {fileID: 328624283}
-  - 50: {fileID: 328624282}
   m_Layer: 0
   m_Name: Wall_B
   m_TagString: Wall
@@ -281,21 +264,6 @@ Transform:
   m_LocalScale: {x: 29.1312294, y: 14.9494963, z: 1}
   m_Children: []
   m_Father: {fileID: 1318350315}
---- !u!50 &328624282
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 328624280}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &328624283
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -326,7 +294,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortingLayerID: 1882393973
   m_Sprite: {fileID: 21300006, guid: afb76ce365eca92489bee521df65c567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -553,7 +521,6 @@ GameObject:
   - 4: {fileID: 715207853}
   - 212: {fileID: 715207856}
   - 61: {fileID: 715207855}
-  - 50: {fileID: 715207854}
   m_Layer: 0
   m_Name: Wall_R_T
   m_TagString: Wall
@@ -572,21 +539,6 @@ Transform:
   m_LocalScale: {x: 18.5337791, y: 15.9524097, z: 1}
   m_Children: []
   m_Father: {fileID: 1318350315}
---- !u!50 &715207854
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 715207852}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &715207855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -617,7 +569,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortingLayerID: 1882393973
   m_Sprite: {fileID: 21300006, guid: afb76ce365eca92489bee521df65c567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -631,7 +583,6 @@ GameObject:
   - 4: {fileID: 914735567}
   - 212: {fileID: 914735566}
   - 61: {fileID: 914735565}
-  - 50: {fileID: 914735564}
   m_Layer: 0
   m_Name: Wall_T
   m_TagString: Wall
@@ -639,21 +590,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!50 &914735564
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 914735563}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &914735565
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -684,7 +620,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortingLayerID: 1882393973
   m_Sprite: {fileID: 21300006, guid: afb76ce365eca92489bee521df65c567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -709,7 +645,6 @@ GameObject:
   - 4: {fileID: 1013753304}
   - 212: {fileID: 1013753307}
   - 61: {fileID: 1013753306}
-  - 50: {fileID: 1013753305}
   m_Layer: 0
   m_Name: Wall_R_B
   m_TagString: Wall
@@ -728,21 +663,6 @@ Transform:
   m_LocalScale: {x: 18.5337791, y: 15.9524097, z: 1}
   m_Children: []
   m_Father: {fileID: 1318350315}
---- !u!50 &1013753305
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1013753303}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &1013753306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -752,8 +672,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .400000006, y: .383457184}
-  m_Center: {x: -3.85787729e-07, y: .00126266526}
+  m_Size: {x: .400000006, y: .389999956}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1013753307
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -773,7 +693,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortingLayerID: 1882393973
   m_Sprite: {fileID: 21300006, guid: afb76ce365eca92489bee521df65c567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -943,7 +863,6 @@ GameObject:
   - 4: {fileID: 1470103883}
   - 212: {fileID: 1470103886}
   - 61: {fileID: 1470103885}
-  - 50: {fileID: 1470103884}
   m_Layer: 0
   m_Name: Wall_L_B
   m_TagString: Wall
@@ -962,21 +881,6 @@ Transform:
   m_LocalScale: {x: 18.5337791, y: 15.9524097, z: 1}
   m_Children: []
   m_Father: {fileID: 1318350315}
---- !u!50 &1470103884
-Rigidbody2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1470103882}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &1470103885
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -986,8 +890,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: .400000006, y: .386291474}
-  m_Center: {x: 4.76202445e-07, y: .00185881648}
+  m_Size: {x: .400000006, y: .389999956}
+  m_Center: {x: 0, y: -1.1920929e-07}
 --- !u!212 &1470103886
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1007,7 +911,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortingLayerID: 1882393973
   m_Sprite: {fileID: 21300006, guid: afb76ce365eca92489bee521df65c567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
