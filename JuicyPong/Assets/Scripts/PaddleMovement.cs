@@ -15,8 +15,7 @@ public class PaddleMovement : MonoBehaviour {
 	public PlayerNum PlayerSlot = PlayerNum.Player1;
 	private float vertDir;
 
-	// Update is called once per frame
-	void Update ()
+	void Update()
 	{
 		if (PlayerSlot == PlayerNum.Player1)
 		{
@@ -28,7 +27,7 @@ public class PaddleMovement : MonoBehaviour {
 		}
 
 		transform.position += Vector3.up * vertDir * Speed * Time.deltaTime;
-
+		
 		if (transform.position.y > UpperBound || transform.position.y < LowerBound)
 			transform.position -= Vector3.up * vertDir * Speed * Time.deltaTime;
 	}
